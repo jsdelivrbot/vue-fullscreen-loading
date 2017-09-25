@@ -7,7 +7,7 @@
             <div class="loader-wrapper">
                 <div class="pulled-left" style="padding: 10px 20px">{{label}}</div>
                 <div class="wrapper">
-                    <img src="./loading.gif" alt="">
+                    <img src="./loading.gif" alt="Loading" class="loading-img">
                 </div>
             </div>
         </div>
@@ -102,6 +102,11 @@
         width: 40px;
         height: 40px;
         font-size: 0;
+    }
+
+    .wrapper .loading-img {
+        width: 35px;
+        height: auto;
     }
 
 
